@@ -35,9 +35,33 @@ header,
 footer {
     height: 60px;
     width: 100%;
-    line-height: 60px;
+    line-height: 40px;
     background-color:rgb(60, 105, 52);
     color: white;
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid rgb(0, 156, 124);
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid white;
+    color: white;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-height: auto;
+    max-width: 50%;
 }
 
 .text-center {
