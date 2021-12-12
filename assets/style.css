@@ -1,9 +1,28 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
 }
 
 body {
+    position: relative;
     background-color:rgb(127, 140, 71);
+    font-size: 20px;
+    color:sienna;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 li {
@@ -12,9 +31,19 @@ li {
     text-decoration: none;
 }
 
-header {
-    position:fixed;
+header,
+footer {
     height: 60px;
     width: 100%;
-    background-color:rgb(40, 163, 100);
+    line-height: 60px;
+    background-color:rgb(60, 105, 52);
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
