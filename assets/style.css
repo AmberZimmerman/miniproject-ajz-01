@@ -3,5 +3,18 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color:rgb(127, 140, 71);
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+header {
+    position:fixed;
+    height: 60px;
+    width: 100%;
+    background-color:rgb(40, 163, 100);
 }
